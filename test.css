@@ -1,0 +1,25 @@
+body
+{
+  margin:0;
+  padding:0;
+}
+
+#container
+{
+  position:relative;
+  width:100%;
+}
+
+#left
+{
+  height:500px;
+  width:500px;
+}
+
+#right
+{
+  position:absolute;
+  right:0px;
+  height:500px;
+  width:300px;
+}
