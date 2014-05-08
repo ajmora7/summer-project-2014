@@ -4,22 +4,44 @@ body
   padding:0;
 }
 
+h1
+{
+  color:red;
+}
+
 #container
 {
+  border-style:dashed;
   position:relative;
   width:100%;
+  height:100%;
+}
+
+#main
+{
+  border-style:dashed;
 }
 
 #left
 {
-  height:500px;
-  width:500px;
+  border-style:dashed;
+  height:600px;
+  width:700px;
+  float:left;
 }
 
 #right
 {
-  position:absolute;
-  right:0px;
-  height:500px;
-  width:300px;
+  border-style:dashed;
+  height:600px;
+  width:700px;
+  float:right;
+}
+
+#footer
+{
+  height:50px;
+  width:100%;
+  border-style:solid;
+  vertical-align:text-bottom;
 }
