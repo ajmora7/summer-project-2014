@@ -1,7 +1,7 @@
 body
 {
-  margin:0;
-  padding:0;
+  margin:1px;
+  padding:1px;
 }
 
 h1
@@ -11,22 +11,34 @@ h1
 
 #container
 {
-  border-style:dashed;
+  border-style:dotted;
   position:relative;
   width:100%;
-  height:100%;
+  height:1000px;
+  padding:10px;
 }
 
-#main
+#banner
 {
-  border-style:dashed;
+  width:100%;
+  text-align:center;
+  border-style:double;
+}
+
+#header
+{
+  border-style:solid;
+  width:100%;
+  height:80px;
+  margin:10px;
+  text-align:center;
 }
 
 #left
 {
   border-style:dashed;
   height:600px;
-  width:700px;
+  width:712px;
   float:left;
 }
 
@@ -34,7 +46,7 @@ h1
 {
   border-style:dashed;
   height:600px;
-  width:700px;
+  width:712px;
   float:right;
 }
 
@@ -44,4 +56,5 @@ h1
   width:100%;
   border-style:solid;
   vertical-align:text-bottom;
+  text-align:center;
 }
